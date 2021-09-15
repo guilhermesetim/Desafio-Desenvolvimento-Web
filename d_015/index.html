@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../_CSS/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../_CSS/style.css">
+    <style>
+        #k{
+            margin-left: 8px;
+        }
+    </style>
+    <title>ex015</title>
+</head>
+<body>
+    <header>
+        <h1>Desafios de Desenvolvimento Web</h1>
+    </header>
+    <main>
+        <section class="tituloResumoDesafio">
+            <h2>Aluguel de carro</h2>
+        </section>
+        <section class="secaoDevPrograma">
+            <div id="entradaDados">
+                <form id="form">
+                    <p>
+                        Quantos dias alugado? 
+                        <input type="number" name="d" id="d" required min="1" max="10000">
+                    </p>
+                    <p>
+                        Quantos km rodados?
+                        <input type="number" name="k" id="k" required min="1" max="10000">
+                        <input type="submit" id="calcular" value="calcular">
+                    </p>
+                </form>
+            </div>
+
+            <hr>
+
+            <div id="respostaDados">
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

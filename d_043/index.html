@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../_CSS/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../_CSS/style.css">
+    <style>
+        #peso{margin: 0px 0px 10px 7px;}
+    </style>
+    <title>ex043</title>
+</head>
+<body>
+    <header>
+        <h1>Desafios de Desenvolvimento Web</h1>
+    </header>
+    <main>
+        <section class="tituloResumoDesafio">
+            <h2>IMC</h2>
+        </section>
+        <section class="secaoDevPrograma">
+            <div id="entradaDados">
+                Peso: 
+                <input type="number" id="peso" min="0" max="999999" placeholder="em Kg"><br>
+                Altura: 
+                <input type="number" id="altura" min="0" max="999999" placeholder="em metros">
+                <input type="button" value="Calcular" onclick="api()">
+            </div>
+
+            <hr>
+
+            <div id="respostaDados">
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

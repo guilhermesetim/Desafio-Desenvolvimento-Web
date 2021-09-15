@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../_CSS/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../_CSS/style.css">
+    <style>
+        #compra{margin-top: 20px;}
+    </style>
+    <title>ex044</title>
+</head>
+<body>
+    <header>
+        <h1>Desafios de Desenvolvimento Web</h1>
+    </header>
+    <main>
+        <section class="tituloResumoDesafio">
+            <h2>Caixa</h2>
+        </section>
+        <section class="secaoDevPrograma">
+            <div id="entradaDados">
+                
+                <fieldset><legend>Forma de pagamento</legend>
+                    
+
+                    <input type="radio" name="formPag" id="vistaDinheiro" checked value="1">
+                    <label for="vistaDinheiro">À vista no dinheiro</label><br>
+
+                    <input type="radio" name="formPag" id="vistaCartao" value="2">
+                    <label for="vistaCartao">À vista no cartão</label><br>
+
+                    <input type="radio" name="formPag" id="cartao2x" value="3">
+                    <label for="cartao2x">2 vezes no cartão</label><br>
+
+                    <input type="radio" name="formPag" id="cartao3x" value="4">
+                    <label for="cartao3x">3 vezes + no cartão</label>
+                </fieldset>
+
+
+                Preço das compras: R$ <input type="number" id="compra" min="0.1" max="999999999.99">
+
+                <input type="button" value="Verificar" onclick="api()">
+                
+
+            </div>
+
+            <hr>
+
+            <div id="respostaDados">
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../_CSS/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../_CSS/style.css">
+    <title>ex021</title>
+</head>
+<body>
+    <header>
+        <h1>Desafios de Desenvolvimento Web</h1>
+    </header>
+    <main>
+        <section class="tituloResumoDesafio">
+            <h2>Tocando músicas</h2>
+        </section>
+        <section class="secaoDevPrograma">
+            <div id="entradaDados">
+                <fieldset><legend>Escolha uma música</legend>
+                    <input type="radio" name="esc" id="jazz" value="1" checked>
+                    <label for="jazz">Jazz</label>
+                    <input type="radio" name="esc" id="samba" value="2">
+                    <label for="samba">Rock</label>
+                    <input type="radio" name="esc" id="pop" value="3">
+                    <label for="pop">Pop</label>
+                    <input type="button" id="tocar" value="Tocar" onclick="play()">
+                    
+                    
+                </fieldset>
+            </div>
+
+            <hr>
+
+            <div id="respostaDados">
+                <audio controls autoplay id="audio">
+                   
+                </audio>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

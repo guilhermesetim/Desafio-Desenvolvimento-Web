@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../_CSS/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../_CSS/style.css">
+    <style>
+        #numConverter{margin-top: 10px;}
+    </style>
+    <title>ex037</title>
+</head>
+<body>
+    <header>
+        <h1>Desafios de Desenvolvimento Web</h1>
+    </header>
+    <main>
+        <section class="tituloResumoDesafio">
+            <h2>Conversor de Bases numéricas</h2>
+        </section>
+        <section class="secaoDevPrograma">
+            <div id="entradaDados">
+                <fieldset><legend>Escolha uma base de conversão</legend>
+                    <input type="radio" name="tipoConversao" id="binario" checked value="1">
+
+                    <label for="binario">Binário</label>
+                    <input type="radio" name="tipoConversao" id="octa" value="2">
+
+                    <label for="octa">Octadecimal</label>
+                    <input type="radio" name="tipoConversao" id="hexadecimal" value="3">
+                    <label for="hexadecimal">Hexadecimal</label>
+
+                    <input type="number" placeholder="Digite o número aqui" id="numConverter">
+                    <input type="button" value="Converter" onclick="api()">
+
+
+                </fieldset>
+            </div>
+
+            <hr>
+
+            <div id="respostaDados">
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

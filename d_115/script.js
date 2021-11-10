@@ -15,7 +15,16 @@ function showDataBase(){
 
 
 function newCadastre(){
-    alert('Cadastrar')
+    document.querySelector('#respostaDados').innerHTML = 
+    `
+    <form>
+    <label for="nomeUsr">Nome:</label>
+    <input type="text" name="nomeUsr" id="nomeUsr" required>
+    <label for="nomeUsr">Idade:</label>
+    <input type="number" min="0" max="9999" name="idadeUsr" id="idadeUsr" required>
+    <input type="submit" value="Enviar">
+    </form>
+    `
 }
 
 function exit(){

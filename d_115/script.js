@@ -10,7 +10,9 @@ document.querySelector('#buttonExecut').addEventListener('submit',function(event
 
 
 function showDataBase(){
-    alert('Mostrar Usuários')
+    document.querySelector('#respostaDados').innerHTML = "Mostrar Usuários"
+    
+    
 }
 
 
@@ -28,7 +30,8 @@ function newCadastre(){
 }
 
 function exit(){
-    alert('Programa finalizado')
+    document.querySelector('#respostaDados').innerHTML = "Programa finalizado com sucesso!"
+
 }
 
 
